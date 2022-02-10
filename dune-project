@@ -30,5 +30,6 @@ from type definitions.
 Biniou format specification: mjambon.github.io/atdgen-doc/biniou-format.txt")
  (depends
   easy-format
+  camlp-streams ; Quick Fix!
   (dune (>= 1.10))
   (ocaml (>= "4.02.3"))))
